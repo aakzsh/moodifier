@@ -1,6 +1,6 @@
 body
 {
-    background-image: url('bg.png');
+    background-image: url('images/bg.png');
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -76,3 +76,4 @@ a:link, a:visited {
   margin-left: 0;
   margin-top: 40px;
 opacity: 0.0;
+}
