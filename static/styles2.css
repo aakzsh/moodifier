@@ -1,0 +1,102 @@
+.body1{ /* sadness */
+  background-image: url('https://i.ibb.co/NZF3Kx7/sad-bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color:  #5271ff;
+}
+
+.body2{ /* anger */
+  background-image: url('https://i.ibb.co/T4JdFBw/angry-bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: red;
+}
+.body0{ /* anger */
+  background-image: url('https://i.ibb.co/mhZ727L/moodifier-1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #737373;
+}
+.body3{ /* fear */
+  background-image: url('https://i.ibb.co/j8WzwgC/scary-bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #344c3c;
+}
+.body4{ /* disgust */
+  background-image: url('https://i.ibb.co/JF26xbm/disgust-bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #c9e265;
+}
+.body5{ /* happpy */
+  background-image: url('https://i.ibb.co/KxZ6VzR/happy-bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #ffbd59;
+}
+
+.body6{ /* surprised */
+  background-image: url('https://i.ibb.co/0Xh0qDd/surprised-bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #ffbd59;
+}
+.body7{/* sleepy */
+  background-image: url('https://i.ibb.co/vPFvgQW/sleepy-bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #cb6ce6;
+}
+
+.body8{/* neutral */
+  background-image: url('https://i.ibb.co/bd66m4f/neutral-bg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #866042;
+}
+
+
+.title{
+  color: white;
+  font-family: cursive;
+  font-size: 30px;
+}
+
+.button {
+  background-color: black;
+  opacity: 0.7;
+font-family: sans-serif;
+  border-radius: 10px;
+  color: white;
+  width: 200px;
+  padding: 20px;
+  border-style: solid ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.button:hover{
+opacity: 0.5;
+}
+
+.footer {
+  float: left;
+ padding-bottom: 0;
+ padding-top: 10px;
+ text-align: center;
+ bottom: 0px;
+ width: 100%;
+
+   background-color: #0000;
+   color: white;
+   text-align: center;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: white;
+}
