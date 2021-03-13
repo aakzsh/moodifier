@@ -11,6 +11,12 @@
   background-repeat: no-repeat;
   background-color: red;
 }
+.body0{ /* anger */
+  background-image: url('https://i.ibb.co/mhZ727L/moodifier-1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #737373;
+}
 .body3{ /* fear */
   background-image: url('https://i.ibb.co/j8WzwgC/scary-bg.png');
   background-size: contain;
@@ -78,7 +84,7 @@ opacity: 0.5;
 }
 
 .footer {
-   float: left;
+  float: left;
  padding-bottom: 0;
  padding-top: 10px;
  text-align: center;
