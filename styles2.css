@@ -1,0 +1,43 @@
+body{
+  background-color: black;
+  background-image: url("https://cdn.discordapp.com/attachments/819958958462599205/820125022000775208/sleepy_bg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.title{
+  color: white;
+  font-family: cursive;
+  font-size: 30px;
+}
+
+.button {
+  background-color: #ffffff00;
+font-family: sans-serif;
+  border-radius: 10px;
+  color: white;
+  width: 200px;
+  padding: 20px;
+  border-style: solid;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.button:hover{
+opacity: 0.5;
+}
+
+.footer{
+
+  margin-bottom: 0;
+  margin-top: 350px;
+  color: white;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: white;
+}
