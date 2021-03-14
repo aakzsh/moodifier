@@ -6,12 +6,12 @@
     background-color: rgb(255, 22, 22);
     background-position: center;
     background-attachment: fixed;
-  
+
 }
 
 .l_disgust
 {
-    background-image: url('https://i.ibb.co/9rHmCSM/disgust-landing-page.png');
+    background-image: url('https://i.ibb.co/d7Nb1KT/Copy-of-moodify.png');
     background-repeat: no-repeat;
     background-size:contain;
     background-color: rgb(201, 226, 101);
@@ -31,10 +31,10 @@
 
 .l_neutral
 {
-    background-image: url('https://i.ibb.co/hmd3KVs/neutral-landing-page.png');
+    background-image: url('https://i.ibb.co/93sn390/moodifier-2.png');
     background-repeat: no-repeat;
     background-size:contain;
-    background-color:#c9e265;
+    background-color: #866042;
     background-position: center;
     background-attachment: fixed;
 }

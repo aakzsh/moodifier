@@ -3,38 +3,34 @@
   <head>
     <meta charset="utf-8">
     <title>Moodifier</title>
-    <link rel="stylesheet" href="../static/styles.css">
-    <script src="../static/index.js" charset="utf-8"></script>
+     <link rel="stylesheet" href="../static/styles.css">
+       <script type="text/javascript" src="{{ url_for('static', filename = 'index.js') }}"></script>
   </head>
-  <body>
+  <body class="bodyindex">
   <div class="title-header">
     <center>
-      <img src="../static/title_header.png" alt="" class="header-image">
+      <img src="title_header.png" alt="" class="header-image">
       <div class="title">
-       <h1 >Moodifier</h1>
+
       </div>
     </center>
 
+<img src="https://i.ibb.co/gDtXcQw/1615722065515.png" alt="" height="150px">
+<br><br><br>
+<img src="https://i.ibb.co/p1vHpF3/1615722091730.png" alt="" height="400px">
   </div>
 
 
-
-   <div id="image">
-    <div id="pic">
-      <h1>gg</h1>
-    </div>
-    <h2 id="comment">SNAP OR UPLOAD A PICTURE OF YOURSELVF AND RECEIVE A SONG FOR YOUR MOOD</h2>
-   </div>
-
-
-   <div class="container">
-  <img src="../static/box1.png" alt="container" width="300" align="center" class="footer">
-<div class="xyz">
-
   <center>
-    <p>made with ❤ by Hanna, Elle and Aakash | source code in GitHub repo<a href="https://github.com/aakzsh/moodifier" color="white"> here</a></p>  <!-- go on use the code and modify it any way you like -->
-
+    <form action="/upload" method="POST" enctype="multipart/form-data" class="form1">
+        <input type="file" name="file" class="file1">
+        <input type="submit" name="btn" class="file1" value="Submit">
+    </form>
   </center>
+
+
+
+
 
 </div>
 </div>
