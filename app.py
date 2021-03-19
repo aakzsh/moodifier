@@ -4,7 +4,7 @@ import numpy as np
 from keras.models import load_model
 import os
 
-port = int(os.environ.get('PORT', 5000))
+port = int(os.environ.get('PORT', 8000))
 
 UPLOAD_FOLDER = 'uploadFile'
 app = Flask(__name__)
