@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Moodifier</title>
+     <link rel="stylesheet" href="../static/styles.css">
+       <script type="text/javascript" src="{{ url_for('static', filename = 'index.js') }}"></script>
+  </head>
+  <body class="bodyindex">
+  <div class="title-header">
+    <center>
+      <img src="title_header.png" alt="" class="header-image">
+      <div class="title">
+
+      </div>
+    </center>
+
+<img src="https://i.ibb.co/xJ2Pb6q/1615724143980.png" alt="" height="150px">
+<br><br><br>
+<img src="https://i.ibb.co/p1vHpF3/1615722091730.png" alt="" height="400px">
+  </div>
+
+
+  <center>
+    <form action="{{url_for('after')}}" method="POST" enctype="multipart/form-data" class="form1">
+        <input type="file" name="file1" class="file1">
+        <input type="submit" name="btn" class="file1" value="Submit">
+    </form>
+  </center>
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,79 @@
+.l_anger
+{
+    background-image: url('https://i.ibb.co/rp82wHX/angry-landing-page.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: rgb(255, 22, 22);
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.l_disgust
+{
+    background-image: url('https://i.ibb.co/d7Nb1KT/Copy-of-moodify.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: rgb(201, 226, 101);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.l_happy
+{
+    background-image: url('https://i.ibb.co/4fMYr53/happy-landing-page.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: rgb(255, 189, 89);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.l_neutral
+{
+    background-image: url('https://i.ibb.co/93sn390/moodifier-2.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: #866042;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.l_sad
+{
+    background-image: url('https://i.ibb.co/myXmQ07/sad-landing-page.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: #5271ff;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.l_scary
+{
+    background-image: url('https://i.ibb.co/nnNWtNt/scary-landing-page.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: rgb(48, 72, 63);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.l_sleepy
+{
+    background-image: url('https://i.ibb.co/Kz8gdyh/sleepy-landing-page.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: rgb(203, 108, 230);
+    background-position: center;
+    background-attachment: fixed;
+}
+.l_surprise
+{
+    background-image: url('https://i.ibb.co/3yFBrRz/surprised-landing-page.png');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: rgb(255, 222, 89);
+    background-position: center;
+    background-attachment: fixed;
+}
