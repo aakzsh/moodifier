@@ -4,6 +4,7 @@ import numpy as np
 from keras.models import load_model
 import os
 
+port = int(os.environ.get('PORT', 5000))
 
 UPLOAD_FOLDER = 'uploadFile'
 app = Flask(__name__)
@@ -55,4 +56,4 @@ def after():
 #should be working
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=port, debug=True)
