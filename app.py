@@ -4,6 +4,7 @@ import numpy as np
 from keras.models import load_model
 import os
 
+port = int(os.environ.get('PORT', 5000))
 
 UPLOAD_FOLDER = 'uploadFile'
 app = Flask(__name__)
@@ -20,44 +21,39 @@ def index():
 def after():
 
     if request.method == 'POST':
-        if 'file' not in request.files:
-            return print('Nothing to see homie')
-        file = request.files['file']
-        file.filename = "file"
-        path = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
-        file.save(path)
-        print('file uploaded')
-    image = cv2.imread('uploadFile/file', 0)
+        img = request.files['file1']
+        img.save('static2/file.jpg')
 
-    image = cv2.resize(image, (48, 48))
+        image = cv2.imread('static2/file.jpg', 0)
 
-    image = np.reshape(image, (1, 48, 48, 1))
+        image = cv2.resize(image, (48, 48))
 
-    model = load_model('model.h5')
+        image = np.reshape(image, (1, 48, 48, 1))
 
-    prediction = model.predict(image)
+        model = load_model('model.h5')
+
+        prediction = model.predict(image)
 
     label_map = ['Angry', 'Neutral', 'Scared', 'Happy', 'Sad', 'Surprised']
 
     prediction = np.argmax(prediction)
     print(f"{prediction} this is your prediction")
-    os.remove('uploadFile/file')
     final_prediction = label_map[prediction]
-    if (final_prediction == 'Angry'):
-        return render_template('anger.html')
-    elif (final_prediction == 'Neutral'):
-        return render_template('neutral.html')
-    elif (final_prediction == 'Scared'):
-        return render_template('fear.html')
-    elif (final_prediction == 'Happy'):
-        return render_template('happiness.html')
-    elif (final_prediction == 'Sad'):
-        return render_template('sadness.html')
-    elif (final_prediction == 'Surprised'):
-        return print('there is nothing for you here')
+    if (prediction == 0):
+        return render_template('landing_anger.html')
+    elif (prediction == 1):
+        return render_template('landing_neutral.html')
+    elif (prediction == 2):
+        return render_template('landing_scary.html')
+    elif (prediction == 3):
+        return render_template('landing_happy.html')
+    elif (prediction == 4):
+        return render_template('landing_sad.html')
+    elif (prediction == 5):
+        return render_template('landing_surprise.html')
 
     return render_template('after.html', data=final_prediction)
 #should be working
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=port, debug=True)
