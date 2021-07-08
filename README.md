@@ -10,3 +10,7 @@ clone repository from github into your local system. <br>
 activate your virtualenv for python. <br>
 run: `pip install -r requirements.txt` in your shell. <br>
 run: `python app.py` in your shell. <br>
+
+# Links
+[Devpost](https://devpost.com/software/moodifier) <br>
+[Demo Video](https://youtu.be/EbWkipZzS10)
