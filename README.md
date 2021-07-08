@@ -1,4 +1,4 @@
-# moodifier
+# Moodifier
 Hello everyone, we are the Hacker Birdies. Thank you for your interest in Moodifier, a website where you can receive songs or videos for you mood based on a photo. This project was made with a lot of hard work and love so we hope you enjoy it. <3
 
 # Description
@@ -6,7 +6,7 @@ Moodifier uses pre trained models that are implemented on web through flask. It 
 
 # Installation
 ## This sections talks about running moodifier locally:-
-clone repository from github into your local system.
-activate your virtualenv for python.
-run: `pip install -r requirements.txt` in your shell.
-run: `python app.py` in your shell.
+clone repository from github into your local system. <br>
+activate your virtualenv for python. <br>
+run: `pip install -r requirements.txt` in your shell. <br>
+run: `python app.py` in your shell. <br>
