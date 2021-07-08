@@ -5,8 +5,8 @@ Hello everyone, we are the Hacker Birdies. Thank you for your interest in Moodif
 Moodifier uses pre trained models that are implemented on web through flask. It takes image as an input, performs the query, detects the mood of the person in the image and redirects them to respective emotions' pages. There, people can find resources or listen to music matching their emotions.
 
 # Installation
-This sections talks about running moodifier locally
-<ul> clone repository from github into your local system. </ul>
-<ul> activate your virtualenv for python </ul>
-<ul> run: `pip install -r requirements.txt` in your shell. </ul>
-<ul> run: `python app.py` in your shell </ul> 
+## This sections talks about running moodifier locally:-
+clone repository from github into your local system.
+activate your virtualenv for python.
+run: `pip install -r requirements.txt` in your shell.
+run: `python app.py` in your shell.
